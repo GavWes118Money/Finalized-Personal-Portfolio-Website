@@ -23,7 +23,7 @@ nav {
 }
 
 .navbar li {
-  float: right;
+  float: left;
   display: flex;
   padding: 50px;
 }
