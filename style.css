@@ -1,3 +1,4 @@
+/* Base Styles — Mobile First */
 body {
   background-color: #001133;
   background-image: url("");
@@ -31,18 +32,22 @@ header {
   top: 0;
 }
 
+
+
 img {
-  border-radius: 14px;
+  border-radius: 154px;
   box-shadow: 0 15px 10px rgba(0,0,2,0.2);;
   height: auto;
   max-width: 300px;
   position: center;
 }
 
-.intro {
+/* Tablet and Up */
+@media (min-width: 700px) {
+  .intro {
   align-items: center;
   display: grid;
-  gap: ;
+  gap: 2rem;
   grid-template-columns: 1fr 2fr;
   text-align: ;
 }
@@ -80,11 +85,13 @@ p {
   font-family: arial;
   color: #f5fbff;
 }
+  
+  
 
 footer {
   background: linear-gradient(to bottom, #3564F0, #0b3a8c);
   left: 0;
-  padding: 2rem;
+  padding: 5rem;
   position: absolute;
   right: 0;
   top: 100rem;
