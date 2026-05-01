@@ -42,14 +42,14 @@ img {
   position: center;
 }
 
-/* Tablet and Up */
+/* Iphone and Up */
 @media (min-width: 700px) {
   .intro {
   align-items: center;
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr 2fr;
-  text-align: ;
+  text-align: left;
 }
 
 
