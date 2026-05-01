@@ -11,11 +11,10 @@ body {
 footer {
   background: linear-gradient(to bottom, #3564F0, #0b3a8c);
   left: 0;
-  line-height: 1.6;
   padding: 2rem;
-  position: fixed;
+  position: absolute;
   right: 0;
-  width: 100%;
+  top: 100rem;
 }
 
 h1, h2, h4{
