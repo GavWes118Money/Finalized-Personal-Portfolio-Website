@@ -63,8 +63,8 @@ img {
     text-align: left;
   }
 
-
-    
+.tagline {
+    text-align: center;
   }  
 
 .bio, h2, h3 {
@@ -119,7 +119,7 @@ p {
   
   .hobbies li {
     color: white;
-    margin-top: 10rem;
+    margin-top: 4rem;
     font-size: 1.2rem;
     font-family: arial;
   }
