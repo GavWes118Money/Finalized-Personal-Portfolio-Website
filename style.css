@@ -16,10 +16,10 @@ body {
 }
 
 
-h1, h2{
+h1, h2, h3{
   color: #AADEF2;
   font-family: garamond;
-  text-align: left;
+  text-align: center;
   
 }
 
@@ -56,20 +56,21 @@ img {
 /* Iphone and Up */
 @media (min-width: 375px) {
   .intro {
-  align-items: center;
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: 1fr 2fr;
-}
+    align-items: center;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+  }
 
 
     
   }  
 
-.bio, h2 {
+.bio, h2, h3 {
   margin-top: 0.5rem;
   font-size: 3rem;
-  text-align: left;
+  text-align: center;
 }
 
 .bio, p {
@@ -115,13 +116,4 @@ p {
     margin-top: 10rem;
     font-size: 1.2rem;
     font-family: arial;
-  }  
-
-/* Footer */  
-footer {
-  left: 0;
-  padding: 5rem;
-  position: absolute;
-  right: 0;
-  top: 150rem;
-}
+  } 
