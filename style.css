@@ -7,7 +7,12 @@ body {
 }
 
 .container {
-  
+  background: linear-gradient(to bottom, #3564F0, #0b3a8c);
+  left: 0;
+  padding: .75rem 1rem;
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
 
 
@@ -42,7 +47,7 @@ img {
   border-radius: 154px;
   box-shadow: 0 15px 10px rgba(0,0,2,0.2);;
   height: auto;
-  max-width: 300px;
+  max-width: 400px;
   margin-top: 9rem;
   position: center;
 }
@@ -57,17 +62,14 @@ img {
   grid-template-columns: 1fr 2fr;
 }
 
-/* Desktop and Up */
-@media (min-width: 1000px) {
-  body {
-    padding: 5rem 3rem;
+
     
   }  
 
 .bio, h2 {
   margin-top: 0.5rem;
   font-size: 3rem;
-  text-align: center;
+  text-align: left;
 }
 
 .bio, p {
@@ -88,7 +90,7 @@ nav {
   float: left;
   font-family: arial;
   display: flex;
-  padding: 50px;
+  padding: 30px;
 }
 
 p {
@@ -110,16 +112,16 @@ p {
   
   .hobbies li {
     color: white;
-    margin-top: 5rem;
-    font-size: 1rem;
+    margin-top: 10rem;
+    font-size: 1.2rem;
+    font-family: arial;
   }  
 
 /* Footer */  
 footer {
-  background: linear-gradient(to bottom, #3564F0, #0b3a8c);
   left: 0;
   padding: 5rem;
   position: absolute;
   right: 0;
-  top: 100rem;
+  top: 150rem;
 }
