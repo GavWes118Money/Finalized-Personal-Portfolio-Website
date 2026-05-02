@@ -43,7 +43,7 @@ img {
 }
 
 /* Iphone and Up */
-@media (min-width: 700px) {
+@media (min-width: 375px) {
   .intro {
   align-items: center;
   display: grid;
