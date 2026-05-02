@@ -1,8 +1,9 @@
 /* Base Styles — Mobile First */
+
 body {
   background-color: #001133;
   background-image: url("");
-  padding: 20rem;
+  padding: 10rem;
 }
 
 .container {
@@ -32,15 +33,20 @@ header {
   top: 0;
 }
 
-
+.intro {
+  display: block;
+  text-align: center;
+}
 
 img {
   border-radius: 154px;
   box-shadow: 0 15px 10px rgba(0,0,2,0.2);;
   height: auto;
   max-width: 300px;
+  margin-top: 9rem;
   position: center;
 }
+
 
 /* Iphone and Up */
 @media (min-width: 375px) {
@@ -49,22 +55,26 @@ img {
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr 2fr;
-  text-align: left;
 }
 
-
+/* Desktop and Up */
+@media (min-width: 1000px) {
+  body {
+    padding: 5rem 3rem;
+    
+  }  
 
 .bio, h2 {
   margin-top: 0.5rem;
   font-size: 3rem;
-  text-align: ;
+  text-align: center;
 }
 
 .bio, p {
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
 }
-
 
 
 nav {
@@ -86,8 +96,25 @@ p {
   color: #f5fbff;
 }
   
+/* Hobbies section*/
+  .hobbies {
+    margin-top: 25rem;
+    text-align: center;
+  }
   
+  .hobbies ul {
+    list-style-type: square;
+    right: 9rem;
+    text-align: left;
+  }
+  
+  .hobbies li {
+    color: white;
+    margin-top: 5rem;
+    font-size: 1rem;
+  }  
 
+/* Footer */  
 footer {
   background: linear-gradient(to bottom, #3564F0, #0b3a8c);
   left: 0;
