@@ -54,7 +54,7 @@ img {
 
 
 /* Iphone and Up */
-@media (min-width: 375px) {
+@media (min-width: 600px) {
   .intro {
     align-items: center;
     display: grid;
@@ -94,6 +94,12 @@ nav {
   padding: 30px;
 }
 
+nav a:hover { 
+  color: #FFA64D;
+  transform: scale(1.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 p {
   font-family: arial;
   color: #f5fbff;
@@ -116,4 +122,4 @@ p {
     margin-top: 10rem;
     font-size: 1.2rem;
     font-family: arial;
-  } 
+  }
