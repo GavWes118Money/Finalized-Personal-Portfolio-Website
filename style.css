@@ -1,31 +1,34 @@
 /* Base Styles — Mobile First */
 
 body {
+  align-items: center;
   background-color: #001133;
-  background-image: url("");
+  background-image: url("https://i.postimg.cc/5ty6qB1t/Pattern-1.png");
   padding: 10rem;
 }
 
+
+
 .container {
   background: linear-gradient(to bottom, #3564F0, #0b3a8c);
+  bottom: 0;
   left: 0;
   padding: .75rem 1rem;
   position: fixed;
   right: 0;
-  bottom: 0;
 }
 
 
 h1, h2, h3{
   color: #AADEF2;
-  font-family: garamond;
+  font-family: "Limelight", sans-serif;
   text-align: center;
   
 }
 
 h4 {
   color: #AADEF2;
-  font-family: garamond;
+  font-family: arial;
   text-align: center;
 }
 
@@ -38,23 +41,39 @@ header {
   top: 0;
 }
 
+.hero {
+ background-attachment: absolute;
+  background-image: url("https://i.postimg.cc/DZ8MVcbH/Desk-Pic.jpg");
+  background-image: linear-gradient(to bottom,
+    rgba(0,0,0,1),
+    rgba(0,0,0,0));
+  background-position: center;
+  background-size: cover;
+  padding: 30rem;
+}
+
 .intro {
   display: block;
   text-align: center;
 }
 
 img {
-  border-radius: 154px;
+  border-radius: 50px;
   box-shadow: 0 15px 10px rgba(0,0,2,0.2);;
   height: auto;
-  max-width: 400px;
+  max-width: 370px;
   margin-top: 9rem;
   position: center;
 }
 
 
-/* Iphone and Up */
-@media (min-width: 600px) {
+/* Desktops */
+@media (max-width: 1440px) {
+  
+}
+  
+/* Tablets */
+@media (min-width: 1024px) {
   .intro {
     align-items: center;
     display: grid;
@@ -62,6 +81,12 @@ img {
     grid-template-columns: 1fr 2fr;
     text-align: left;
   }
+}
+
+/* Phones */
+@media (max-width: 400px) {
+  
+}
 
 .tagline {
     text-align: center;
@@ -88,10 +113,16 @@ nav {
 }
 
 .navbar li {
+  color: white;
+  display: flex;
   float: left;
   font-family: arial;
-  display: flex;
   padding: 30px;
+}
+  
+nav a {
+  text-decoration: none;
+  color: #cfe8ff;
 }
 
 nav a:hover { 
@@ -103,15 +134,18 @@ nav a:hover {
 p {
   font-family: arial;
   color: #f5fbff;
+  max-width: 650px;
+  margin: 0 auto;
 }
   
 /* Hobbies section*/
   .hobbies {
-    margin-top: 25rem;
+    margin-top: 9rem;
     text-align: center;
   }
   
   .hobbies ul {
+    align-items: center;
     list-style-type: square;
     right: 9rem;
     text-align: left;
