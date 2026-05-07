@@ -60,3 +60,165 @@
 </footer> 
 </body>
 </html>
+
+<style>
+  /* Base Styles — Mobile First */
+
+body {
+  align-items: center;
+  background-color: #001133;
+  background-image: url("https://i.postimg.cc/5ty6qB1t/Pattern-1.png");
+  padding: 10rem;
+}
+
+
+
+.container {
+  background: linear-gradient(to bottom, #3564F0, #0b3a8c);
+  bottom: 0;
+  left: 0;
+  padding: .75rem 1rem;
+  position: fixed;
+  right: 0;
+}
+
+
+h1, h2, h3{
+  color: #AADEF2;
+  font-family: "Limelight", sans-serif;
+  text-align: center;
+  
+}
+
+h4 {
+  color: #AADEF2;
+  font-family: arial;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(to bottom, #3564F0, #0b3a8c);
+  left: 0;
+  padding: .75rem 1rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.hero {
+ background-attachment: absolute;
+  background-image: url("https://i.postimg.cc/DZ8MVcbH/Desk-Pic.jpg");
+  background-image: linear-gradient(to bottom,
+    rgba(0,0,0,1),
+    rgba(0,0,0,0));
+  background-position: center;
+  background-size: cover;
+  padding: 30rem;
+}
+
+.intro {
+  display: block;
+  text-align: center;
+}
+
+img {
+  border-radius: 50px;
+  box-shadow: 0 15px 10px rgba(0,0,2,0.2);;
+  height: auto;
+  max-width: 370px;
+  margin-top: 9rem;
+  position: center;
+}
+
+
+/* Desktops */
+@media (max-width: 1440px) {
+  
+}
+  
+/* Tablets */
+@media (min-width: 1024px) {
+  .intro {
+    align-items: center;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+  }
+}
+
+/* Phones */
+@media (max-width: 400px) {
+  
+}
+
+.tagline {
+    text-align: center;
+  }  
+
+.bio, h2, h3 {
+  margin-top: 0.5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.bio, p {
+  font-size: 1rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+
+nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.navbar li {
+  color: white;
+  display: flex;
+  float: left;
+  font-family: arial;
+  padding: 30px;
+}
+  
+nav a {
+  text-decoration: none;
+  color: #cfe8ff;
+}
+
+nav a:hover { 
+  color: #FFA64D;
+  transform: scale(1.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+p {
+  font-family: arial;
+  color: #f5fbff;
+  max-width: 650px;
+  margin: 0 auto;
+}
+  
+/* Hobbies section*/
+  .hobbies {
+    margin-top: 9rem;
+    text-align: center;
+  }
+  
+  .hobbies ul {
+    align-items: center;
+    list-style-type: square;
+    right: 9rem;
+    text-align: left;
+  }
+  
+  .hobbies li {
+    color: white;
+    margin-top: 4rem;
+    font-size: 1.2rem;
+    font-family: arial;
+  }
+</style>
